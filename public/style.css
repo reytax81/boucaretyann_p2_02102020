@@ -126,3 +126,198 @@ input[type=submit]:hover{
     background-color: #DEEBFF;
     color: #0065FC;
 }
+main{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+h2{
+    font-size: 1.25rem;
+    margin: 0;
+}
+h3{
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+h4{
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #0065FC;
+}
+.greyStar{
+    color: #F2F2F2;
+}
+/*IMAGES LOGEMENTS*/
+.cannebiere{
+    background-image: url(../images/hebergements/4_small/auberge_cannebiere.jpg);
+}
+.hotelPort{
+    background-image: url(../images/hebergements/4_small/hotel_port.jpg);
+}
+.hotelMouettes{
+    background-image:url(../images/hebergements/4_small/hotel_mouette.jpg);
+}
+.hotelMer{
+    background-image:url(../images/hebergements/4_small/hotel_mer.jpg);
+}
+.aubergePanier{
+    background-image:url(../images/hebergements/4_small/auberge_panier.jpg);
+}
+.hotelAmina{
+    background-image:url(../images/hebergements/4_small/hotel_amina.jpg);
+}
+.hotelSoleil{
+    background-image:url(../images/hebergements/4_small/hotel_soleil_matin.jpg);
+}
+.chambreCoeurEau{
+    background-image:url(../images/hebergements/4_small/chambre_au_coeur_eau.jpg);
+}
+.hotelBleuBlanc{
+    background-image:url(../images/hebergements/4_small/hotel_bleu_blanc.jpg);
+}
+/*IMAGES ACTIVITES*/
+.activitePort{
+    background-image: url(images/activites/4_small/vieux_port.jpg);
+    height: 393px;
+}
+.activitePomegues{
+    background-image: url(images/activites/4_small/fort_de_pomegues.jpg);
+    height: 180px;
+}
+.activiteFrioul{
+    background-image: url(images/activites/4_small/ile_du_frioul.jpg);
+    height: 109px;
+}
+.activiteCalanques{
+    background-image: url(images/activites/4_small/parc_des_calanques.jpg);
+    height: 393px;
+}
+.activiteNotreDame{
+    background-image: url(images/activites/4_small/notre_dame_de_la_garde.jpg);
+    height: 140px;
+}
+.activiteLongchamp{
+    background-image: url(images/activites/4_small/parc_longchamp.jpg);
+    height: 154px;
+}
+/*SECTION RESULTATS*/
+.resultats{
+    margin-bottom: 60px;
+}
+.resultats small{
+    font-size: 0.75rem;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+}
+.resultats .icone{
+    height: 22px;
+    width: 22px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border: 1px solid #F2F2F2;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+.blockResultats{
+    display: flex;
+    justify-content: space-between;
+    max-height: 626px;
+}
+.resultatsPrincipaux{
+    display: flex;
+    flex-direction: column;
+    max-width: 880px;
+    padding: 40px 0;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.resultatsPrincipaux h2, .afficherPlus{
+    padding-left: 40px;
+}
+.afficherPlus{
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+.resultatsPopulaires{
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+    padding: 40px 0;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+.resultatsPopulaires .fa-chart-line{
+    margin-left: 118px;
+}
+.resultatsPopulaires .conteneurCarte{
+    flex-direction: column;
+}
+.conteneurCarte{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.carte{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+.carte h4{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+.carte p{
+    font-size: 0.8rem;
+    padding-left: 12px;
+    margin: 6px 0;
+}
+.carte .note{
+    padding-left: 12px;
+    color: #0065FC;
+}
+.carte:hover{
+    box-shadow: none;
+}
+.cartePrincipal{
+    padding: 5px 5px 10px 5px;
+}
+.imgPrincipal{
+    width: 236px;
+    height: 114px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.cartePopulaire{
+    display: flex;
+    width: 334px;
+    height: 134px;
+    padding: 5px;
+}
+.imgPopulaire{
+    width: 127px;
+    height: 134px;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.texteCarte p{
+    margin-bottom: 35%;
+}
+.lienCarte{
+    margin: 15px 0;
+}
