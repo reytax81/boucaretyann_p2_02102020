@@ -352,3 +352,28 @@ a:hover{
 .carteActivites:hover{
     box-shadow: none;
 }
+/*FOOTER*/
+footer{
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.contenuFooter{
+    max-width: 1340px;
+    margin: auto;
+    display: flex;
+}
+.contenuFooter div{
+    margin-right: 228px;
+    padding-bottom: 29px;
+}
+footer h3{
+    padding: 46px 0 9px 0;
+}
+li{
+    font-size: 1.06rem;
+    padding: 9px 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
