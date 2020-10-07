@@ -576,3 +576,18 @@ ul{
         justify-content: space-evenly;
     }
 }
+
+@media all and (min-width: 1024px) and (max-width: 1200px){
+    .resultatsPopulaires{
+        align-items: center;
+    }
+    .cartePopulaire{
+        width: 316px;
+    }
+    .resultatsPopulaires .lienCarte{
+        margin: 5px;
+    }
+    .imgActivite{
+        width: 324px;
+    }
+}
